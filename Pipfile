@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mysql-connector = "*"
+jsonschema = "==3.0.2"
+fastapi = {extras = ["all"], version = "*"}
+flask = {extras = ["all"], version = "*"}
+flask-mysqldb = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
