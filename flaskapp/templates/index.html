@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-sm-2"></div>
 
-            <!-- content goes here -->
+            <!-- content goes here-->
             <div class="col-sm-8">
 <h2 >Application List <button class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Add Student</button></h2>
 
@@ -57,14 +57,35 @@
                         </div>
 
                         <div class="form-group">
+                            <label>Age</label>
+                            <input type="text" name="age" class="form-control" id="exampleFormControlInput1" placeholder="Enter Age">
+                          </div>
+                        
+                        <div class="form-group">
                             <label>Email</label>
                             <input type="text" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
                         </div>
+                        
 
                         <div class="form-group">
                             <label>Phone Number</label>
                             <input name="phone" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone Number">
                           </div>
+
+                          <div class="form-group">
+                            <label>CGPA</label>
+                            <input type="text" name="cgpa" class="form-control" id="exampleFormControlInput1" placeholder="Enter CGPA">
+                        </div>
+                        <div class="form-group">
+                            <label>College</label>
+                            <input type="text" name="college" class="form-control" id="exampleFormControlInput1" placeholder="Enter College">
+                        </div>
+                        <div class="form-group">
+                            <label>Skill</label>
+                            <input type="text" name="skill" class="form-control" id="exampleFormControlInput1" placeholder="Enter Skill">
+                        </div>
+
+                          
 
                           <button type="submit" class="btn btn-primary mb-2">Save</button>
                      
@@ -94,7 +115,7 @@
         </tr>
     </thead>
     <tbody>
-        {% for row in students %}
+        {% for row in applicants %}
         <tr>
         <td>{{row.0}}</td>
         <td>{{row.1}}</td>
@@ -175,4 +196,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </body>
-</html>
+</html> -->
